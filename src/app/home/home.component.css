@@ -1,0 +1,40 @@
+.bg {
+    background-image: url(images/homepic.jpeg);
+    background-size: 100% 100%;
+    height: 500px;
+    opacity: 90%;
+  }
+
+  .bg h1{
+    font-family: Great Vibes;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 230px;
+    text-shadow: 2px 2px 6px gray;
+  }
+
+  .bg p{
+    font-family: Great Vibes;
+    font-size: 50px;
+    color: rgb(1, 49, 68);
+    text-shadow: 2px 2px 6px gray;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 290px;
+    font-weight:bolder; 
+
+  }
+  #btn1{
+    margin-left: 450px;
+    margin-top: 370px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  #btn2{
+    margin-top: 370px;
+    font-weight: bold;
+  }
+
