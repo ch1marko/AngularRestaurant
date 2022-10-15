@@ -24,11 +24,11 @@ const routes: Routes = [
     component: MenuComponent,
   },
   {
-    path: "details",
+    path: "details/:id",
     component: DetailsComponent,
   },
   {
-    path: "order/:id",
+    path: "order",
     component: OrderComponent,
   }
 ];

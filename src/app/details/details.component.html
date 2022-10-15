@@ -1,1 +1,20 @@
-<p>details works!</p>
+<div id="mainDiv" class="container text-center d-flex">
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-md-1">
+        <div  class="col p-2">
+        <div  class="card" style="width: 25rem;">
+        <img style="height:20rem;" src="{{detailOfItem.img}}" class="card-img-top" >
+        <div class="card-body">
+          <h5 class="card-title">{{detailOfItem.name}}</h5>
+          <p class="card-text">{{detailOfItem.description}}</p>
+
+          <div class="card-text"><p>{{detailOfItem.details}}</p></div>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Price: {{detailOfItem.price}} €</li>
+        </ul>
+        <button type="button" class="btn btn-success btn-sm" (click)="addToCart()"><i class="bi-trash m-1"></i>Order</button>
+      </div>
+    </div>
+    </div>
+    
+</div>

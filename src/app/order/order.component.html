@@ -1,1 +1,35 @@
-<p>order works!</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+          <table class="table table-image">
+            <thead>
+              <tr>
+                <th scope="col">Order</th>
+              </tr>
+            </thead>
+            <tbody>
+                <div *ngFor="let item of orderedItems">
+              <tr>
+                <th scope="row">1</th>
+                <td class="w-25">
+                    <img src="{{item.img}}" class="img-fluid img-thumbnail" >
+                </td>
+                <td>{{item.name}}</td>
+                <td>{{item.description}}</td>
+                <td><b>Price: {{item.price}} €</b></td>
+              </tr>
+            </div>
+            </tbody>
+          </table>   
+      </div>
+    </div>
+  </div>
+
+  <div class="card d-flex justify-content-around" style="width: 18rem; box-shadow: 2px 2px 2px 2px gray; ">
+    <div class="card-header bg-white">
+          Summary
+    </div>
+    <ul class="list-group list-group-flush">
+    <h5 class="clist-group-item">Products: {{sum}}</h5>
+    <div class="list-group-item">Service €{{sum}}</div>
+    </ul>

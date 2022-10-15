@@ -14,9 +14,12 @@
             <ul class="list-group list-group-flush">
             <div class="list-group-item">€{{item.price}}</div>
             </ul>
-            <div class="card-body d-flex flex-row gap-1">
-            <button type="button" class="btn btn-success btn-sm"><i class="bi-trash m-1"></i>Order</button>
-            <button type="button" class="btn btn-primary  btn-sm"><i class="bi-check-circle m-1"></i>Details</button>
+            <div *ngIf="item.availability === true" class="card-body d-flex flex-row gap-1">
+                <button type="button" class="btn btn-success btn-sm" (click)="orderItem(item.id)"><i class="bi-trash m-1"></i>Order</button>
+                <button type="button" class="btn btn-primary  btn-sm" routerLink="/details/{{item.id}}"><i class="bi-check-circle m-1"></i>Details</button>
+            </div>
+            <div *ngIf="item.availability === false" class="card-body d-flex flex-row gap-1">
+                <p class="text-danger">The product is not aviable</p>
             </div>
         </div>
         </div>
