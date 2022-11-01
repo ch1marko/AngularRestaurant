@@ -131,6 +131,10 @@
     background-image: url(images/homepic.jpeg);
   }
 
+  .img-fluid{
+    display: none;
+  }
+
   .bg h1 {
     font-family: Great Vibes;
     font-size: 45px;
@@ -174,6 +178,10 @@
     background-image: url(images/homepic.jpeg);
   }
 
+  .img-fluid{
+    display: none;
+  }
+
   .bg h1 {
     font-family: Great Vibes;
     font-size: 45px;
@@ -212,6 +220,107 @@
 
 
 }
+
+
+@media (min-width: 701px) and (max-width: 900px) {
+
+  .bg {
+    background-image: url(images/homepic.jpeg);
+  }
+
+  .img-fluid{
+    display: none;
+  }
+
+  .bg h1 {
+    font-family: Great Vibes;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 230px;
+    text-shadow: 2px 2px 6px gray;
+  }
+
+  .bg p {
+    font-family: Great Vibes;
+    font-size: 40px;
+    color: rgb(1, 49, 68);
+    text-shadow: 2px 2px 6px gray;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 300px;
+    font-weight: bolder;
+
+  }
+
+  #btn1 {
+    margin-left: 190px;
+    margin-top: 370px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  #btn2 {
+    margin-left: 15px;
+    margin-top: 370px;
+    font-weight: bold;
+  }
+
+
+
+}
+
+
+@media (min-width: 901px) and (max-width: 1024px) {
+
+  .bg {
+    background-image: url(images/homepic.jpeg);
+  }
+
+  .img-fluid{
+    display: none;
+  }
+
+  .bg h1 {
+    font-family: Great Vibes;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 230px;
+    text-shadow: 2px 2px 6px gray;
+  }
+
+  .bg p {
+    font-family: Great Vibes;
+    font-size: 40px;
+    color: rgb(1, 49, 68);
+    text-shadow: 2px 2px 6px gray;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 300px;
+    font-weight: bolder;
+
+  }
+
+  #btn1 {
+    margin-left: 190px;
+    margin-top: 370px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  #btn2 {
+    margin-left: 15px;
+    margin-top: 370px;
+    font-weight: bold;
+  }
+
+
+
+}
+
 
 @media (min-width: 1025px) {
   .bg {
